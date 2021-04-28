@@ -10,7 +10,35 @@ read E_
 echo "Installing..."
 
 # Install dependencies
-apt install autoconf bison clang coreutils curl tsu findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config postgresql-contrib wget make ruby-dev libgrpc-dev ncurses-utils termux-tools -y
+apt install autoconf -y
+apt install bison -y
+apt install clang -y
+apt install coreutils -y
+apt install curl -y
+apt install tsu -y
+apt install findutils -y
+apt install git -y
+apt install apr -y
+apt install apr-util -y
+apt install libffi-dev -y
+apt install libgmp-dev -y
+apt install libpcap-dev -y
+apt install postgresql-dev -y
+apt install readline-dev -y
+apt install libsqlite-dev -y
+apt install openssl-dev -y
+apt install libtool -y
+apt install libxml2-dev -y
+apt install libxslt-dev -y
+apt install ncurses-dev -y
+apt install pkg-config -y
+apt install postgresql-contrib -y
+apt install wget -y
+apt install make -y
+apt install ruby-dev -y
+apt install libgrpc-dev -y
+apt install ncurses-utils -y
+apt install termux-tools -y
 
 cd $HOME
 curl -LO https://github.com/rapid7/metasploit-framework/archive/$targetversion.tar.gz
